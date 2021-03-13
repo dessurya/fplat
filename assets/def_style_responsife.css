@@ -1,0 +1,62 @@
+@media (max-width: 868px){
+    .my_btn{
+        padding: 14px 24px;
+    }
+
+    #header img#fplat_icon{
+        top: 1em;
+        left: 1em;
+        height: 45px;
+    }
+    #header .container{
+        padding: 2em 0 1.6em;
+    }
+    #header h1{
+        margin-top: 1em;
+        font-size: 32pt;
+    }
+    #header img#line{
+        width: 65%;
+    }
+    #header img#logos{
+        height: auto;
+        width: 75%;
+    }
+
+    #keuntungan #list .item{
+        width: 250px;
+    }
+
+    #paket .row img:last-child{
+        margin-top: 2em;
+    }
+}
+
+@media (max-width: 568px){
+    .my_btn{
+        padding: 14px;
+    }
+    #header h1{
+        font-size: 30pt;
+    }
+    #header h4{
+        font-size: 18pt;
+    }
+    #keuntungan .row img,
+    #paket .row img{
+        padding: 0 2em;
+    }
+    #keuntungan .row div{
+        margin-bottom: 1em;
+    }
+    #keuntungan .row div:last-child{
+        margin-bottom: 0;
+    }
+    #tentang #section_two #inline img{
+        margin: 5px auto;
+        max-height: 90px;
+    }
+    #footer{
+        padding: 1em 0;
+    }
+}
