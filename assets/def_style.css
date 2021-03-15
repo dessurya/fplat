@@ -37,7 +37,7 @@ body{
 h1,h2{
     font-weight: 900;
 }
-a{
+a,a:hover{
     text-decoration: unset !important;
     color: unset;
 }
@@ -133,7 +133,7 @@ a{
 }
 #paket .row img{
     width: 100%;
-    box-shadow: 0 .5em 1em gray;
+    box-shadow: 0 .5em 1em #80808036;
 }
 
 #tentang h2{
