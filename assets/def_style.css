@@ -133,6 +133,7 @@ a{
 }
 #paket .row img{
     width: 100%;
+    box-shadow: 0 .5em 1em gray;
 }
 
 #tentang h2{
@@ -150,8 +151,8 @@ a{
 }
 #tentang #section_two #inline img{
     margin: 5px auto;
-    padding: 0 1.5px;
-    height: 80px;
+    padding: 0 15px;
+    height: 70px;
 }
 
 #footer{
