@@ -30,10 +30,10 @@ body{
     font-family: 'Nunito Sans', sans-serif;
     overflow-x: hidden;
     color: black;
-    font-weight: 400;
     font-size: 12pt;
     line-height: 1.2em;
     padding-top: 116px;
+    width: 100vw;
 }
 a,a:hover{
     text-decoration: unset !important;
@@ -48,6 +48,11 @@ a,a:hover{
 }
 .container.limited{
     /* max-width: 1020px; */
+}
+
+h1{
+    font-size: 36pt;
+    font-weight: 900;
 }
 
 #navbar{
@@ -68,14 +73,14 @@ a,a:hover{
 }
 
 #navbar p#strong{
-    font-weight: 800;
+    font-weight: 900;
     margin-bottom: 5px;
 }
 
 #navbar .container .row .col{
     padding-top: 16px;
     padding-bottom: 16px;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 #navbar #highlight{
@@ -95,11 +100,6 @@ img.img-banner{
     height: auto;
 }
 
-#special-over #title h1{
-    font-size: 36pt;
-    font-weight: 800;
-}
-
 #special-over #title p{
     font-size: 16pt;
     font-weight: 600;
@@ -107,7 +107,7 @@ img.img-banner{
 }
 
 #special-over #so-poin{
-    font-weight: 800;
+    font-weight: 900;
     font-size: 14pt;
     line-height: 1.4em;
     color: #f36a10;
@@ -122,7 +122,7 @@ img.img-banner{
     padding: 60px 80px 25px;
     background-color: #f36a10;
     color: white;
-    font-weight: 800;
+    font-weight: 900;
     border-radius: 10px;
 }
 
@@ -132,15 +132,11 @@ img.img-banner{
 
 #special-over #links p {
     color: #f36a10;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 #testimoni{
-    font-weight: 800;
-}
-
-#testimoni h1{
-    font-size: 36pt;
+    font-weight: 900;
 }
 
 #testimoni .carousel-indicators{
@@ -188,14 +184,78 @@ img.img-banner{
 #testimoni #order a{
     padding: 30px 45px 26px;
     font-size: 20pt;
-    font-weight: 800;
+    font-weight: 900;
     border-radius: 10px;
     background-color: #f36a10;
     color: white;
 }
 
+#traffic-support h4{
+    font-size: 26pt;
+    font-weight: 900;
+}
+
+#traffic-support p{
+    line-height: 1.3em;
+    font-size: 16pt;
+    font-weight: 700;
+}
+
+#customer-feedback #background{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 4em 0 3.4em;
+}
+
+#customer-feedback .carousel-indicators{
+    bottom: -2.4em;
+}
+
+#customer-feedback .carousel-indicators li{
+    cursor: pointer;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+#customer-feedback .container p{
+    font-size: 15pt;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#case-study h2{
+    position: absolute;
+    font-weight: 900;
+    font-size: 36pt;
+}
+
+#case-study p{
+    font-size: 15pt;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
+#msg{
+    color: white;
+    background-color: #434343;
+    padding-top: 4em;
+    padding-bottom: 3em;
+}
+
+#hto p{
+    font-size: 15pt;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
 #footer{
     padding: 1.8em 0;
+    font-size: 15pt;
     color: #ededed;
     background-color: #6d6d6d;
 }
