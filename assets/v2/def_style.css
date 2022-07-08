@@ -1,0 +1,201 @@
+/* scroll bar */
+	/* scroller browser */
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+    /* scroller browser */
+
+    /* Track */
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 5px rgba(215,215,215,.8); 
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+        }
+    /* Track */
+
+    /* Handle */
+        ::-webkit-scrollbar-thumb {
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            background: #fe6500;
+            -webkit-box-shadow: inset 0 0 6px rgba(215,215,215,.8); 
+        }
+        ::-webkit-scrollbar-thumb:window-inactive {
+            background: rgb(215,215,215); 
+        }
+    /* Handle */
+/* scroll bar */
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
+    color: black;
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 1.2em;
+    padding-top: 116px;
+}
+a,a:hover{
+    text-decoration: unset !important;
+    color: unset;
+}
+.full_width{
+    width: 100%;
+}
+.section_space{
+    width: 100%;
+    padding: 3.6em 0 3em;
+}
+.container.limited{
+    /* max-width: 1020px; */
+}
+
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 20px;
+    line-height: 1;
+    height: 116px;
+    z-index: 9999;
+    background-color: white;
+}
+
+#navbar #max-width{
+    max-width: 1366px;
+}
+
+#navbar p#strong{
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+#navbar .container .row .col{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: 800;
+}
+
+#navbar #highlight{
+    color: #ededed;
+    font-size: 9pt;
+    font-weight: 600;
+    background-color: #f7831c;
+}
+
+#navbar img{
+    height: 38px;
+    width: auto;
+}
+
+img.img-banner{
+    width: 1366px;
+    height: auto;
+}
+
+#special-over #title h1{
+    font-size: 36pt;
+    font-weight: 800;
+}
+
+#special-over #title p{
+    font-size: 16pt;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+#special-over #so-poin{
+    font-weight: 800;
+    font-size: 14pt;
+    line-height: 1.4em;
+    color: #f36a10;
+}
+#special-over #links a,
+#special-over #links a label,
+#special-over #links a label span{
+    cursor: pointer;
+}
+
+#special-over #links a{
+    padding: 60px 80px 25px;
+    background-color: #f36a10;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+#special-over #links a label span{
+    font-size: 24pt;
+}
+
+#special-over #links p {
+    color: #f36a10;
+    font-weight: 800;
+}
+
+#testimoni{
+    font-weight: 800;
+}
+
+#testimoni h1{
+    font-size: 36pt;
+}
+
+#testimoni .carousel-indicators{
+    bottom: -4em;
+}
+
+#testimoni .carousel-indicators li{
+    background-color: #73828c;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+#testimoni .carousel-indicators li.active{
+    background-color: #010101;
+}
+
+#testimoni .testi-poin{
+    background-color: #d8dbe4;
+    border-radius: 15px;
+}
+
+#testimoni .testi-poin .img.p-2{
+    padding-left: 4em !important;
+}
+
+#testimoni .testi-poin .img img{
+    width: 160px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#testimoni .testi-poin h4{
+    color: #f36a10;
+}
+
+#testimoni .testi-poin p{
+    font-size: 14pt;
+    line-height: 1.5em;
+}
+
+#testimoni #order a{
+    padding: 30px 45px 26px;
+    font-size: 20pt;
+    font-weight: 800;
+    border-radius: 10px;
+    background-color: #f36a10;
+    color: white;
+}
+
+#footer{
+    padding: 1.8em 0;
+    color: #ededed;
+    background-color: #6d6d6d;
+}
