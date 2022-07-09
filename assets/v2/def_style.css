@@ -27,7 +27,7 @@
 /* scroll bar */
 
 body{
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     color: black;
     font-size: 12pt;
@@ -42,17 +42,24 @@ a,a:hover{
 .full_width{
     width: 100%;
 }
-.section_space{
-    width: 100%;
-    padding: 3.6em 0 3em;
-}
-.container.limited{
-    /* max-width: 1020px; */
-}
-
 h1{
     font-size: 36pt;
     font-weight: 900;
+}
+.max-width{
+    max-width: 1366px;
+}
+.my-btn-color{
+    color: white;
+    border: 3px solid white;
+    background-color: #f7831c;
+    cursor: pointer;
+    transition: all .51s;
+}
+.my-btn-color:hover{
+    color: #f7831c;
+    border: 3px solid #f7831c;
+    background-color: white;
 }
 
 #navbar{
@@ -68,26 +75,26 @@ h1{
     background-color: white;
 }
 
-#navbar #max-width{
-    max-width: 1366px;
-}
 
 #navbar p#strong{
     font-weight: 900;
     margin-bottom: 5px;
 }
 
+#navbar #ts p{
+    font-weight: 500;
+}
+
 #navbar .container .row .col{
     padding-top: 16px;
     padding-bottom: 16px;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 #navbar #highlight{
-    color: #ededed;
     font-size: 9pt;
     font-weight: 600;
-    background-color: #f7831c;
+    line-height: 1.5em;
 }
 
 #navbar img{
@@ -99,6 +106,31 @@ img.img-banner{
     width: 1366px;
     height: auto;
 }
+
+.full-back-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#first-banner #contain{
+    height: 92.5vh;
+    padding-top: 6em;
+    color: white;
+}
+
+#first-banner #contain h2{
+    font-weight: 800;
+    font-size: 40pt;
+    line-height: 1.3em;
+}
+
+#first-banner #contain h1{
+    font-weight: 900;
+    font-size: 40pt;
+    line-height: 1.3em;
+}
+
 
 #special-over #title p{
     font-size: 16pt;
@@ -112,27 +144,56 @@ img.img-banner{
     line-height: 1.4em;
     color: #f36a10;
 }
+
+#special-over #so-poin img{
+    width: 220px;
+}
+
 #special-over #links a,
 #special-over #links a label,
 #special-over #links a label span{
     cursor: pointer;
 }
 
-#special-over #links a{
+#special-over #links #penawaran.my-btn-color{
     padding: 60px 80px 25px;
-    background-color: #f36a10;
-    color: white;
-    font-weight: 900;
+    font-weight: 600;
     border-radius: 10px;
 }
 
 #special-over #links a label span{
     font-size: 24pt;
+    font-weight: 900;
 }
 
-#special-over #links p {
+#special-over #links a#hub{
     color: #f36a10;
     font-weight: 900;
+}
+
+#ts-content{
+    color: white;
+    height: 100vh;
+    position: relative;
+}
+#ts-content .contain{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#ts-content .contain p{
+    font-size: 14pt;
+}
+#ts-content .contain p{
+    font-weight: 800;
+}
+#ts-triangel {
+    margin-top: -2px;
+}
+#ts-img {
+    margin-top: -11em;
+    width: 520px;
+    height: auto;
 }
 
 #testimoni{
@@ -174,31 +235,35 @@ img.img-banner{
 
 #testimoni .testi-poin h4{
     color: #f36a10;
+    font-weight: 600;
 }
 
 #testimoni .testi-poin p{
     font-size: 14pt;
     line-height: 1.5em;
+    font-weight: 600;
 }
 
 #testimoni #order a{
-    padding: 30px 45px 26px;
+    padding: 30px 45px 28px;
     font-size: 20pt;
     font-weight: 900;
     border-radius: 10px;
-    background-color: #f36a10;
-    color: white;
 }
 
 #traffic-support h4{
-    font-size: 26pt;
+    font-size: 27pt;
     font-weight: 900;
 }
 
 #traffic-support p{
-    line-height: 1.3em;
-    font-size: 16pt;
-    font-weight: 700;
+    line-height: 1.5em;
+    font-size: 17pt;
+    font-weight: 600;
+}
+
+#traffic-support .ts-poin .img img {
+    width: 220px;
 }
 
 #customer-feedback #background{
@@ -206,11 +271,11 @@ img.img-banner{
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    padding: 4em 0 3.4em;
+    padding: 6em 0 4.8em;
 }
 
 #customer-feedback .carousel-indicators{
-    bottom: -2.4em;
+    bottom: -3em;
 }
 
 #customer-feedback .carousel-indicators li{
@@ -224,7 +289,7 @@ img.img-banner{
 
 #customer-feedback .container p{
     font-size: 15pt;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.5;
 }
 
@@ -234,9 +299,13 @@ img.img-banner{
     font-size: 36pt;
 }
 
+#case-study .cs-poin img{
+    width: 240px;
+}
+
 #case-study p{
     font-size: 15pt;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.5em;
 }
 
@@ -247,10 +316,21 @@ img.img-banner{
     padding-bottom: 3em;
 }
 
+#hto .hto-poin img{
+    width: 240px;
+}
+
 #hto p{
-    font-size: 15pt;
-    font-weight: 700;
+    font-size: 17pt;
+    font-weight: 500;
     line-height: 1.5em;
+}
+
+#hto #links a{
+    padding: 20px 35px;
+    border-radius: 10px;
+    font-size: 20pt;
+    font-weight: 700;
 }
 
 #footer{
