@@ -27,15 +27,6 @@
     #special-over #title{
         padding: 0 .4em;
     }
-    #special-over #so-poin .d-flex{
-        display: block !important;
-    }
-    #special-over #links #penawaran.my-btn-color{
-        padding: 60px 20px 25px;
-    }
-    #special-over #links a label{
-        font-size: 10pt;
-    }
     #testimoni .testi-poin.d-flex{
         display: block !important;
         text-align: center;
@@ -51,6 +42,9 @@
         font-size: 14pt;
         font-weight: 800;
     }
+    #ts-content{
+        height: 42.5vh;
+    }
     #ts-content .contain{
         padding: 0 10px;
     }
@@ -62,20 +56,6 @@
     img.img-banner{
         width: 100vw;
     }
-    #ts-img{
-        width: 260px;
-        margin-top: -3em;
-    }
-    #traffic-support .d-flex{
-        display: block !important;
-    }
-    #traffic-support .d-flex .p-2{
-        text-align: center;
-    }
-    #traffic-support .d-flex .p-5{
-        padding-left: .5rem!important;
-        padding-right: .5rem!important;
-    }
     #traffic-support h4{
         font-size: 22pt;
         font-weight: 700;
@@ -85,28 +65,8 @@
         font-weight: 500;
         line-height: 1.8em;
     }
-    #case-study .container .d-flex{
-        display: block !important;
-    }
-    #case-study .container .d-flex .p-2{
-        text-align: center;
-    }
-    #case-study .container .d-flex .p-5{
-        padding-left: .5rem!important;
-        padding-right: .5rem!important;
-    }
     #msg h1{
         font-size: 28pt;
-    }
-    #hto .container .d-flex{
-        display: block !important;
-    }
-    #hto .container .d-flex .p-2{
-        text-align: center;
-    }
-    #hto .container .d-flex .p-5{
-        padding-left: .5rem!important;
-        padding-right: .5rem!important;
     }
     #hto #links a{
         padding: 15px 10px;
@@ -122,8 +82,51 @@
     #navbar{
         height: 189px;
     }
+    #special-over #links #penawaran.my-btn-color{
+        padding: 60px 20px 25px;
+    }
+    #special-over #links a label{
+        font-size: 10pt;
+    }
     #special-over #links a label span{
         font-size: 22pt;
         font-weight: 800;
+    }
+    #ts-content{
+        height: 75vh;
+    }
+    #ts-img{
+        width: 260px;
+        margin-top: -3em;
+    }
+    #traffic-support .d-flex{
+        display: block !important;
+    }
+    #traffic-support .d-flex .p-2{
+        text-align: center;
+    }
+    #traffic-support .d-flex .p-5{
+        padding-left: .5rem!important;
+        padding-right: .5rem!important;
+    }
+    #case-study .container .d-flex{
+        display: block !important;
+    }
+    #case-study .container .d-flex .p-2{
+        text-align: center;
+    }
+    #case-study .container .d-flex .p-5{
+        padding-left: .5rem!important;
+        padding-right: .5rem!important;
+    }
+    #hto .container .d-flex{
+        display: block !important;
+    }
+    #hto .container .d-flex .p-2{
+        text-align: center;
+    }
+    #hto .container .d-flex .p-5{
+        padding-left: .5rem!important;
+        padding-right: .5rem!important;
     }
 }

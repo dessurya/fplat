@@ -94,7 +94,7 @@
                 </p>
             </div>
             <div id="so-poin" class="max-width text-center mb-5">
-                <div class="d-flex justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center d-sm-inline-flex">
                     <div class="p-4 flex-fill bd-highlight">
                         <p>Potensi kenaikan<br>jumlah penjualan<br>/ Leads</p>
                         <img src="assets/v2/images/2-Get-below-Special-Offer/get1.png" alt="">
@@ -454,10 +454,10 @@
                         </div>
                     </div>
                     <div id="links" class="row mb-5">
-                        <div class="col-md mb-5 text-center">
+                        <div class="col-xl mb-5 text-center">
                             <a class="my-btn-color" href="https://api.whatsapp.com/send?phone=+6281294145749&text=Halo%2C+saya+ingin+bertanya+tentang+jasa+dari+F-Plat+Indonesia." target="_blank" rel="noopener noreferrer">KONSULTASI GRATIS (WHATSAPP)</a>
                         </div>
-                        <div class="col-md mb-5 text-center">
+                        <div class="col-xl mb-5 text-center">
                             <a class="my-btn-color" href="https://licorice.pink/survey_traffic/new?locale=indo" target="_blank" rel="noopener noreferrer">ORDER TRAFFIC SUPPORT NOW!</a>
                         </div>
                     </div>
@@ -484,6 +484,9 @@
 
             $('.carousel').carousel()
             const win = $(window);
+            if(win.width() <= 820){
+                $('#special-over #so-poin .d-flex').addClass('flex-wrap');
+            }
             // for click slide to
             var scrolling = 0;
                 if(win.width() > 1000){
