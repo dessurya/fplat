@@ -40,7 +40,7 @@ a,a:hover{
     color: unset;
 }
 .full_width{
-    width: 100%;
+    width: 100vw;
 }
 h1{
     font-size: 36pt;
