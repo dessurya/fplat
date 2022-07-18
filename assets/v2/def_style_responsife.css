@@ -87,6 +87,10 @@
     body{
         padding-top: 189px;
     }
+    iframe{
+        width: 80%;
+        height: 280px;
+    }
     #navbar{
         height: 189px;
     }
