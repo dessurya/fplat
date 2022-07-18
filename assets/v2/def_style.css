@@ -46,6 +46,10 @@ h1{
     font-size: 36pt;
     font-weight: 900;
 }
+iframe{
+	width: 560px;
+	height: 315px;
+}
 .max-width{
     max-width: 1366px;
     margin: 0 auto;
