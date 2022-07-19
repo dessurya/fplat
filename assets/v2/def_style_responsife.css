@@ -83,6 +83,9 @@
         font-size: 14pt;
         font-weight: 600;
     }
+    #customer-feedback .d-flex.align-items-center{
+        height: 60vh;
+    }
 }
 
 @media (max-width: 568px){

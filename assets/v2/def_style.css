@@ -280,6 +280,10 @@ img.img-banner{
     padding: 6em 0 4.8em;
 }
 
+#customer-feedback .d-flex.align-items-center{
+    height: 40vh;
+}
+
 #customer-feedback .carousel-indicators{
     bottom: -3em;
 }
