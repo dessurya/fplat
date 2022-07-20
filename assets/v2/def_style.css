@@ -272,6 +272,10 @@ img.img-banner{
     width: 220px;
 }
 
+#traffic-support #ts-other img{
+    width: 210px;
+}
+
 #customer-feedback #background{
     background-position: center;
     background-size: cover;
