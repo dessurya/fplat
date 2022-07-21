@@ -5,6 +5,9 @@
     img.img-banner{
         width: 100vw;
     }
+    #traffic-support #ts-other img{
+        width: 160px;
+    }
 }
 @media (max-width: 868px){
     body{
@@ -87,11 +90,14 @@
         height: 80vh;
     }
     #traffic-support #ts-other img{
-        width: 170px;
+        width: 140px;
     }
 }
 
 @media (max-width: 568px){
+    #traffic-support #ts-other img{
+        width: 140px;
+    }
     body{
         padding-top: 189px;
     }
