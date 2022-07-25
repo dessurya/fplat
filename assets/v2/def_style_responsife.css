@@ -155,4 +155,10 @@
         padding-left: .5rem!important;
         padding-right: .5rem!important;
     }
+    #hto #links .col-xl{
+        margin-bottom: 5rem !important;
+    }
+    #hto #links a{
+        font-size: 12pt;
+    }
 }
