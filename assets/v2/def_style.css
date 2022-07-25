@@ -56,7 +56,7 @@ iframe{
 }
 .my-btn-color{
     color: white;
-    border: 3px solid white;
+    border: 3px solid #f7831c;
     background-color: #f7831c;
     cursor: pointer;
     transition: all .51s !important;
