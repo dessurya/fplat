@@ -93,9 +93,18 @@
     #traffic-support #ts-other img{
         width: 140px;
     }
+
+    #navbar .container .row .col{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 @media (max-width: 568px){
+    #navbar .container .row .col{
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
     #traffic-support #ts-other img{
         width: 140px;
     }
