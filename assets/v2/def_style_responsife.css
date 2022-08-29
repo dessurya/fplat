@@ -22,7 +22,7 @@
         overflow-x: hidden;
     }
     #first-banner #contain{
-        height: 22.5vh;
+        height: 48.5vh;
         padding-top: 1em;
     }
     #first-banner #contain h2{
@@ -101,6 +101,10 @@
 }
 
 @media (max-width: 568px){
+    #first-banner #contain{
+        height: 24.5vh;
+        padding-top: 1em;
+    }
     #navbar .container .row .col{
         padding-top: 4px;
         padding-bottom: 4px;
