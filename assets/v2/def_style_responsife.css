@@ -43,7 +43,8 @@
     #testimoni .testi-poin.d-flex{
         display: block !important;
         text-align: center;
-        padding: 20px 0;
+        padding: 1.5em .5em !important;
+        margin-bottom: 1.5em !important;
     }
     #testimoni .testi-poin .img.p-2,
     #testimoni .testi-poin .d-flex .p-2,

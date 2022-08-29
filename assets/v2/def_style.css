@@ -234,8 +234,9 @@ img.img-banner{
 }
 
 #testimoni .testi-poin .img img{
-    width: 160px;
+    width: 140px;
     height: auto;
+    padding-right: 2em;
     margin: 0 auto;
 }
 
