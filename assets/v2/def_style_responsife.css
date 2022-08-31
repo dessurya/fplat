@@ -98,6 +98,9 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    #so-poin .d-flex{
+        flex-direction: column !important;
+    }
 }
 
 @media (max-width: 568px){
