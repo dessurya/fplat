@@ -9,7 +9,7 @@
         width: 160px;
     }
 }
-@media (max-width: 900px){
+@media (max-width: 1110px){
     #so-poin .d-flex{
         flex-direction: column !important;
     }
