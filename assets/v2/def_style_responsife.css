@@ -9,6 +9,11 @@
         width: 160px;
     }
 }
+@media (max-width: 900px){
+    #so-poin .d-flex{
+        flex-direction: column !important;
+    }
+}
 @media (max-width: 868px){
     body{
         padding-top: 147px;
@@ -97,12 +102,6 @@
     #navbar .container .row .col{
         padding-top: 10px;
         padding-bottom: 10px;
-    }
-    #so-poin .d-flex{
-        flex-direction: column !important;
-    }
-    #so-poin .d-flex div{
-        width: 50%;
     }
 }
 
