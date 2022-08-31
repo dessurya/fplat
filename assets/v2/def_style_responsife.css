@@ -9,6 +9,12 @@
         width: 160px;
     }
 }
+@media (max-width: 935px){
+    #navbar .container .row .col{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
 @media (max-width: 868px){
     body{
         padding-top: 147px;
