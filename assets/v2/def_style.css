@@ -275,6 +275,11 @@ img.img-banner{
     width: 220px;
 }
 
+#traffic-support #ts-other{
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
 #traffic-support #ts-other img{
     width: 160px;
 }
