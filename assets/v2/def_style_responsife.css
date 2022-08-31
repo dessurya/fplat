@@ -9,10 +9,10 @@
         width: 160px;
     }
 }
-@media (max-width: 935px){
+@media (max-width: 945px){
     #navbar .container .row .col{
-        padding-top: 12px;
-        padding-bottom: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 @media (max-width: 868px){
