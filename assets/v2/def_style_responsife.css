@@ -9,11 +9,6 @@
         width: 160px;
     }
 }
-/* @media (max-width: 100x){
-    #so-poin .d-flex{
-        flex-direction: column !important;
-    }
-} */
 @media (max-width: 868px){
     body{
         padding-top: 147px;
