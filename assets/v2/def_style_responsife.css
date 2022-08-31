@@ -101,6 +101,9 @@
     #so-poin .d-flex{
         flex-direction: column !important;
     }
+    #so-poin .d-flex div{
+        width: 50%;
+    }
 }
 
 @media (max-width: 568px){
