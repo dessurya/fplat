@@ -152,7 +152,7 @@ img.img-banner{
 }
 
 #special-over #so-poin img{
-    width: 220px;
+    max-width: 220px;
 }
 
 #special-over #links a,

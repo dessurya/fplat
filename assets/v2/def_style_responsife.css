@@ -13,6 +13,10 @@
     #so-poin .d-flex{
         flex-direction: column !important;
     }
+    #special-over #so-poin img{
+        max-width: 220px;
+        width: 100%;
+    }
 }
 @media (max-width: 868px){
     body{
