@@ -281,7 +281,7 @@ img.img-banner{
 }
 
 #traffic-support #ts-other img{
-    width: 160px;
+    max-width: 160px;
 }
 
 #customer-feedback #background{
