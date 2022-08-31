@@ -11,8 +11,8 @@
 }
 @media (max-width: 945px){
     #navbar .container .row .col{
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
     }
 }
 @media (max-width: 868px){
@@ -63,7 +63,7 @@
         font-weight: 800;
     }
     #ts-content{
-        height: 42.5vh;
+        height: 68.5vh;
     }
     #ts-content .contain{
         padding: 0 10px;
