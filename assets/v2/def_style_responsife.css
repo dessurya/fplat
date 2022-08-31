@@ -9,15 +9,6 @@
         width: 160px;
     }
 }
-@media (max-width: 1110px){
-    #so-poin .d-flex{
-        flex-direction: column !important;
-    }
-    #special-over #so-poin img{
-        max-width: 220px;
-        width: 100%;
-    }
-}
 @media (max-width: 868px){
     body{
         padding-top: 147px;

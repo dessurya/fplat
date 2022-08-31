@@ -144,6 +144,10 @@ img.img-banner{
     line-height: 1.4em;
 }
 
+#so-poin .d-flex{
+    flex-direction: column !important;
+}
+
 #special-over #so-poin{
     font-weight: 900;
     font-size: 14pt;
@@ -153,6 +157,7 @@ img.img-banner{
 
 #special-over #so-poin img{
     max-width: 220px;
+    width: 100%;
 }
 
 #special-over #links a,
